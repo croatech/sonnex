@@ -18,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    func addTestData() {
+        guard let event =
+            NSEntityDescription.entity(forEntityName: "Device", in: <#T##NSManagedObjectContext#>) else {
+                fatalError("Could not find event")
+        }
+    }
 
     // MARK: UISceneSession Lifecycle
 
