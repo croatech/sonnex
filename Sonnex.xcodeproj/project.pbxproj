@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7741356C254B3FFA00E3141B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741356B254B3FFA00E3141B /* AppDelegate.swift */; };
+		7741356E254B3FFA00E3141B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741356D254B3FFA00E3141B /* SceneDelegate.swift */; };
+		77413570254B3FFA00E3141B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741356F254B3FFA00E3141B /* ViewController.swift */; };
+		77413573254B3FFA00E3141B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77413571254B3FFA00E3141B /* Main.storyboard */; };
+		77413576254B3FFA00E3141B /* Sonnex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77413574254B3FFA00E3141B /* Sonnex.xcdatamodeld */; };
+		77413578254B3FFD00E3141B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77413577254B3FFD00E3141B /* Assets.xcassets */; };
+		7741357B254B3FFD00E3141B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77413579254B3FFD00E3141B /* LaunchScreen.storyboard */; };
+		77413586254B3FFD00E3141B /* SonnexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77413585254B3FFD00E3141B /* SonnexTests.swift */; };
+		77413591254B3FFD00E3141B /* SonnexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77413590254B3FFD00E3141B /* SonnexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77413582254B3FFD00E3141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77413560254B3FFA00E3141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77413567254B3FFA00E3141B;
+			remoteInfo = Sonnex;
+		};
+		7741358D254B3FFD00E3141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77413560254B3FFA00E3141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77413567254B3FFA00E3141B;
+			remoteInfo = Sonnex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77413568254B3FFA00E3141B /* Sonnex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonnex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7741356B254B3FFA00E3141B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7741356D254B3FFA00E3141B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7741356F254B3FFA00E3141B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77413572254B3FFA00E3141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77413575254B3FFA00E3141B /* Sonnex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sonnex.xcdatamodel; sourceTree = "<group>"; };
+		77413577254B3FFD00E3141B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7741357A254B3FFD00E3141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7741357C254B3FFD00E3141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77413581254B3FFD00E3141B /* SonnexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonnexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77413585254B3FFD00E3141B /* SonnexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonnexTests.swift; sourceTree = "<group>"; };
+		77413587254B3FFD00E3141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7741358C254B3FFD00E3141B /* SonnexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonnexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77413590254B3FFD00E3141B /* SonnexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonnexUITests.swift; sourceTree = "<group>"; };
+		77413592254B3FFD00E3141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77413565254B3FFA00E3141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7741357E254B3FFD00E3141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77413589254B3FFD00E3141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7741355F254B3FFA00E3141B = {
+			isa = PBXGroup;
+			children = (
+				7741356A254B3FFA00E3141B /* Sonnex */,
+				77413584254B3FFD00E3141B /* SonnexTests */,
+				7741358F254B3FFD00E3141B /* SonnexUITests */,
+				77413569254B3FFA00E3141B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77413569254B3FFA00E3141B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77413568254B3FFA00E3141B /* Sonnex.app */,
+				77413581254B3FFD00E3141B /* SonnexTests.xctest */,
+				7741358C254B3FFD00E3141B /* SonnexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7741356A254B3FFA00E3141B /* Sonnex */ = {
+			isa = PBXGroup;
+			children = (
+				7741356B254B3FFA00E3141B /* AppDelegate.swift */,
+				7741356D254B3FFA00E3141B /* SceneDelegate.swift */,
+				7741356F254B3FFA00E3141B /* ViewController.swift */,
+				77413571254B3FFA00E3141B /* Main.storyboard */,
+				77413577254B3FFD00E3141B /* Assets.xcassets */,
+				77413579254B3FFD00E3141B /* LaunchScreen.storyboard */,
+				7741357C254B3FFD00E3141B /* Info.plist */,
+				77413574254B3FFA00E3141B /* Sonnex.xcdatamodeld */,
+			);
+			path = Sonnex;
+			sourceTree = "<group>";
+		};
+		77413584254B3FFD00E3141B /* SonnexTests */ = {
+			isa = PBXGroup;
+			children = (
+				77413585254B3FFD00E3141B /* SonnexTests.swift */,
+				77413587254B3FFD00E3141B /* Info.plist */,
+			);
+			path = SonnexTests;
+			sourceTree = "<group>";
+		};
+		7741358F254B3FFD00E3141B /* SonnexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77413590254B3FFD00E3141B /* SonnexUITests.swift */,
+				77413592254B3FFD00E3141B /* Info.plist */,
+			);
+			path = SonnexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77413567254B3FFA00E3141B /* Sonnex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77413595254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "Sonnex" */;
+			buildPhases = (
+				77413564254B3FFA00E3141B /* Sources */,
+				77413565254B3FFA00E3141B /* Frameworks */,
+				77413566254B3FFA00E3141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonnex;
+			productName = Sonnex;
+			productReference = 77413568254B3FFA00E3141B /* Sonnex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77413580254B3FFD00E3141B /* SonnexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77413598254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "SonnexTests" */;
+			buildPhases = (
+				7741357D254B3FFD00E3141B /* Sources */,
+				7741357E254B3FFD00E3141B /* Frameworks */,
+				7741357F254B3FFD00E3141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77413583254B3FFD00E3141B /* PBXTargetDependency */,
+			);
+			name = SonnexTests;
+			productName = SonnexTests;
+			productReference = 77413581254B3FFD00E3141B /* SonnexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7741358B254B3FFD00E3141B /* SonnexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7741359B254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "SonnexUITests" */;
+			buildPhases = (
+				77413588254B3FFD00E3141B /* Sources */,
+				77413589254B3FFD00E3141B /* Frameworks */,
+				7741358A254B3FFD00E3141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7741358E254B3FFD00E3141B /* PBXTargetDependency */,
+			);
+			name = SonnexUITests;
+			productName = SonnexUITests;
+			productReference = 7741358C254B3FFD00E3141B /* SonnexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77413560254B3FFA00E3141B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Vitaliy Arnaut";
+				TargetAttributes = {
+					77413567254B3FFA00E3141B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					77413580254B3FFD00E3141B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 77413567254B3FFA00E3141B;
+					};
+					7741358B254B3FFD00E3141B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 77413567254B3FFA00E3141B;
+					};
+				};
+			};
+			buildConfigurationList = 77413563254B3FFA00E3141B /* Build configuration list for PBXProject "Sonnex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7741355F254B3FFA00E3141B;
+			productRefGroup = 77413569254B3FFA00E3141B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77413567254B3FFA00E3141B /* Sonnex */,
+				77413580254B3FFD00E3141B /* SonnexTests */,
+				7741358B254B3FFD00E3141B /* SonnexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77413566254B3FFA00E3141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7741357B254B3FFD00E3141B /* LaunchScreen.storyboard in Resources */,
+				77413578254B3FFD00E3141B /* Assets.xcassets in Resources */,
+				77413573254B3FFA00E3141B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7741357F254B3FFD00E3141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7741358A254B3FFD00E3141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77413564254B3FFA00E3141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77413570254B3FFA00E3141B /* ViewController.swift in Sources */,
+				7741356C254B3FFA00E3141B /* AppDelegate.swift in Sources */,
+				77413576254B3FFA00E3141B /* Sonnex.xcdatamodeld in Sources */,
+				7741356E254B3FFA00E3141B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7741357D254B3FFD00E3141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77413586254B3FFD00E3141B /* SonnexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77413588254B3FFD00E3141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77413591254B3FFD00E3141B /* SonnexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77413583254B3FFD00E3141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77413567254B3FFA00E3141B /* Sonnex */;
+			targetProxy = 77413582254B3FFD00E3141B /* PBXContainerItemProxy */;
+		};
+		7741358E254B3FFD00E3141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77413567254B3FFA00E3141B /* Sonnex */;
+			targetProxy = 7741358D254B3FFD00E3141B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77413571254B3FFA00E3141B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77413572254B3FFA00E3141B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77413579254B3FFD00E3141B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7741357A254B3FFD00E3141B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77413593254B3FFD00E3141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77413594254B3FFD00E3141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77413596254B3FFD00E3141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = Sonnex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.Sonnex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77413597254B3FFD00E3141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = Sonnex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.Sonnex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77413599254B3FFD00E3141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = SonnexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.SonnexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonnex.app/Sonnex";
+			};
+			name = Debug;
+		};
+		7741359A254B3FFD00E3141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = SonnexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.SonnexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonnex.app/Sonnex";
+			};
+			name = Release;
+		};
+		7741359C254B3FFD00E3141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = SonnexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.SonnexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonnex;
+			};
+			name = Debug;
+		};
+		7741359D254B3FFD00E3141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDRP875ULK;
+				INFOPLIST_FILE = SonnexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = croatech.SonnexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonnex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77413563254B3FFA00E3141B /* Build configuration list for PBXProject "Sonnex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77413593254B3FFD00E3141B /* Debug */,
+				77413594254B3FFD00E3141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77413595254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "Sonnex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77413596254B3FFD00E3141B /* Debug */,
+				77413597254B3FFD00E3141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77413598254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "SonnexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77413599254B3FFD00E3141B /* Debug */,
+				7741359A254B3FFD00E3141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7741359B254B3FFD00E3141B /* Build configuration list for PBXNativeTarget "SonnexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7741359C254B3FFD00E3141B /* Debug */,
+				7741359D254B3FFD00E3141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77413574254B3FFA00E3141B /* Sonnex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77413575254B3FFA00E3141B /* Sonnex.xcdatamodel */,
+			);
+			currentVersion = 77413575254B3FFA00E3141B /* Sonnex.xcdatamodel */;
+			path = Sonnex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77413560254B3FFA00E3141B /* Project object */;
+}
